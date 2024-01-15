@@ -1,0 +1,22 @@
+package Test;
+
+import Pages.LoginPage;
+
+public class LoginTest {
+	
+	
+	
+	
+	
+	
+	
+	
+	public void loginNewUser(String uName, String psswd) {
+		
+		new LoginPage()
+		.enterUsername(uName)
+		.enterPassword(psswd)
+		.clickLogin();
+	}
+
+}

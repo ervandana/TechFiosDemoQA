@@ -1,0 +1,25 @@
+package Test;
+
+import org.testng.annotations.Parameters;
+
+import Pages.LoginPage;
+
+public class LoginTest {
+	
+	
+	
+	
+	
+	
+	@Parameters({"link","uName","psswd"})
+	@data
+	
+	public void logintest1(String uName, String psswd) {
+		
+		new LoginPage()
+		.enterUsername(uName)
+		.enterPassword(psswd)
+		.clickLogin();
+	}
+
+}

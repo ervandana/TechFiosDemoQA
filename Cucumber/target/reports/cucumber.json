@@ -1,0 +1,118 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-01-15T05:22:36.074Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13005523600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.openLogin()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "",
+        "description": "",
+        "id": "validate-login-page;",
+        "after": [
+          {
+            "result": {
+              "duration": 481709900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.StepDefinition.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10930800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is in DemoQA boostore login page",
+            "match": {
+              "location": "steps.StepDefinition.user_is_in_DemoQA_boostore_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3980600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters username \"harryPotter\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"harryPotter\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_username(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6127700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters password \"Abcd@1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Abcd@1234\"",
+                  "offset": 21
+                }
+              ],
+              "location": "steps.StepDefinition.user_enters_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2991800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "steps.StepDefinition.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2990900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user should land on profile page",
+            "match": {
+              "location": "steps.StepDefinition.user_should_land_on_profile_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate login page",
+    "description": "",
+    "id": "validate-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/loginTest.feature",
+    "tags": []
+  }
+]

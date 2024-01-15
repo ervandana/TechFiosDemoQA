@@ -1,0 +1,10 @@
+package runner;
+
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(
+		Feature = "./Feature/")
+public class LoginRunner {
+
+}
