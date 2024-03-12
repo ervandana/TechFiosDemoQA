@@ -20,12 +20,12 @@ public class StepDefinition extends TestBase {
 		
 	}
 
-	@When("user enters username {string}")
+	@When("user enters username {'/harryPotter'}")
 	public void user_enters_username(String string) {
 
 	}
 
-	@When("user enters password {string}")
+	@When("user enters password {'/Abcd@1234/'}")
 	public void user_enters_password(String string) {
 
 	}

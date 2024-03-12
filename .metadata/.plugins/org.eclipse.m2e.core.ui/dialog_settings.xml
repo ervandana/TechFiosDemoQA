@@ -27,6 +27,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="SeleniumBasics.AutomationPracExam"/>
 			<item value="SeleniumBasics.CucumberProj"/>
 			<item value="SeleniumBasics.SelConcepts"/>
 		</list>
@@ -34,6 +35,7 @@
 			<item value="SeleniumBasics"/>
 		</list>
 		<list key="artifactId">
+			<item value="AutomationPracExam"/>
 			<item value="CucumberProj"/>
 			<item value="SelConcepts"/>
 		</list>

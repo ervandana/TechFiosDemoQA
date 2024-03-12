@@ -1,4 +1,0 @@
-Feature: Validate login page
-
-  Scenario: 
-    Given user is in DemoQA boostore page
