@@ -1,9 +1,0 @@
-package Pages;
-
-public class RegisterPage {
-	
-	public RegisterPage() {
-		PageFactory.
-	}
-
-}
